@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	double m, d, v;
+
+	
+	cout<< "Enter Mass:" << endl;
+	cin >> m;
+
+	cout << "Enter Density:" << endl;
+	cin >> d;
+
+	v = m / d;
+
+	cout << "Volume =" << setprecision(3) << v << endl;
+
+	_getch();
+	return 0;
+}
